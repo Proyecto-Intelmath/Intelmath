@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/08/2019, 09:46:44 PM
+    Author     : agxel
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: HelveticaWorld-BoldItalic;
+    box-sizing:  border-box;
+}
+
+
+
+body{
+    background:#B9B1AF;
+}
+
+#sesion a{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#inicio{
+    background-color: #e9ecef;
+  
+    border: solid;
+    border-color: #e9ecef;
+    border-radius: 10px;
+    width: 75%;
+   
+    position: relative;
+    margin: 3% auto;
+}
+#inicio1{
+    background-color: #e9ecef;
+  
+    border: solid;
+    border-color: #e9ecef;
+    border-radius: 10px;
+    width: 45%;
+   
+    position: relative;
+    margin: 3% auto;
+}
+#inicio1 h2{
+    margin: 2% auto 0 auto; 
+    text-align: center;
+}
+#nt{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#text{
+
+    position: relative;
+    margin: 0 auto;
+    padding: 25px;
+}
+#btnsesion {
+    margin: 0 auto;
+}
+
+
+#recuperar{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+#recuperar p{
+    padding: 3%;
+}
+#recuperar #codigo{
+    margin: 0 auto;
+    width: 15%;
+}
+#recuperar #contra{
+    margin: 0 auto;
+width: 45%;
+}
+#recuperar #contra2{
+    margin: 0 auto;
+width: 45%;
+}
+
+
+#triviaModal  img{
+    margin: -28px 0 0% 17%;
+    width: 65%;
+    height: 100%;
+}
+
+
+#cerrarSesion{
+    padding: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    max-width: 900px;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+#perfil{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    width: 45%;
+    
+}
+#perfil h1{
+    padding: 5%;
+}
+
+span{display:block;font-size:.8em;margin:0px 0 10px;padding:5px 0 5px 11px;width:200px}
+.confirmacion{background:#C6FFD5;border:1px solid green;}
+.negacion{background:#ffcccc;border:1px solid red}
+.buscar{
+
+    margin-left:  70%;
+    margin-right: auto;
+    width: 300px;
+    height: 80px;
+}
+
+.buscar button{
+    float: right;
+}
+
+#tabla{ 
+
+    padding: 0 50px;
+}
+#biblio{
+    margin:8%;
+    display: none;
+    background: rgba(218,94,97,0.9);
+    border-radius: 25px;
+
+}
+
+#biblio p{
+    text-align: justify;
+}
+#biblio button{
+    margin:auto ;
+
+}
+#biblio a{
+    padding-left: 10% ; 
+}
+table{
+    background: rgba(247, 224, 218,0.5); 
+    padding: 10px 0;
+}
+
+
+#insertT{
+    width: 500px;
+    height: 150px;
+    background: rgba(247, 224, 218,0.5); 
+}
+#insertT a{
+    position: relative;
+    left: 30%;
+}
+
+#volver{
+    position: absolute;
+    margin: 1% 0 0 15%;
+    width: 100px;
+    height: 50px;
+}
+h1{
+    margin: 1% auto;
+    text-align: center;
+}
+#mushor{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+}
+#biblioDina{
+    position: relative;
+    margin:8%; 
+}
+#biblioDina button{
+    margin:auto; 
+}
+#bliblio2{
+    width: 45%;
+    height: 70%;
+
+}
+#biblioDina #Dinamica{
+    position: absolute;
+    top: 11%;
+    right: 3%;
+    width: 45%;
+    height: 70%;
+}
+
+
+@media only screen and (max-width:980px){
+    #biblio{
+        display:block; 
+
+    }
+    #biblioDina{
+        display: none;
+    }
+}
+@media only screen and (max-width:600px){
+    #biblio{
+        margin:3%;
+    }
+    #biblio button{
+    margin: auto;
+
+}
+
+}
+#verpuntaje{
+    margin: 0 auto;
+    
+}
